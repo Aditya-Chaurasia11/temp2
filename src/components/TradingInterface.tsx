@@ -104,9 +104,9 @@ const TradingInterface = () => {
               </label> */}
               <input
                 placeholder="Price (USD)"
-                className="text-xs font-medium text-[#000000] bg-transparent outline-none placeholder-[#00000080]"
+                className="text-xs font-medium text-[#000000] bg-transparent outline-none placeholder-[#00000080] w-[100%]"
               />
-              <p className="text-xs font-medium text-[#000000]">
+              <p className="text-xs text-nowrap font-medium text-[#000000]">
                 34.5 <span className="underline text-[#000000]">Mid</span>
               </p>
             </div>
