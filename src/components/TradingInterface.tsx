@@ -98,7 +98,7 @@ const TradingInterface = () => {
           </div>
 
           <div className="px-4 py-2 rounded bg-[#F5F5F5] border border-[#E9E9E9]">
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between gap-1 items-center">
               {/* <label className="">
                 Price (USD)
               </label> */}
