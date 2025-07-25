@@ -58,7 +58,7 @@ const TradingInterface = () => {
           <div className="flex mb-4 border border-[#E9E9E9] rounded-[4px] p-[1px] bg-[#F5F5F5]">
             <button
               onClick={() => setActiveTab("BUY/LONG")}
-              className={`flex-1 py-1.5 sm:py-2 text-[13px] sm:text-sm font-medium rounded-[5px] ${
+              className={`flex-1 py-1.5 text-[13px] font-medium rounded-[5px] ${
                 activeTab === "BUY/LONG"
                   ? "bg-[#2B2B2B] text-[#EAEAEA]"
                   : "bg-[#F5F5F5] text-[#00000080]"
@@ -68,7 +68,7 @@ const TradingInterface = () => {
             </button>
             <button
               onClick={() => setActiveTab("SELL/SHORT")}
-              className={`flex-1 py-1.5 sm:py-2  text-[13px] sm:text-sm font-medium rounded-[5px] ${
+              className={`flex-1 py-1.5  text-[13px] font-medium rounded-[5px] ${
                 activeTab === "SELL/SHORT"
                   ? "bg-gray-900 text-white"
                   : "bg-gray-100 text-gray-600"
@@ -128,7 +128,7 @@ const TradingInterface = () => {
 
           <div className="h-1 w-full bg-[#ECECEC]"></div>
 
-          <div className="space-y-2 mb-3 mt-2.5">
+          <div className="space-y-2 mb-4 mt-2.5">
             <div className="flex justify-between text-[#000000] text-sm  font-medium">
               <span className="text-[#000000]">Order Total</span>
               <span className="text-[#000000] font-medium">$0</span>
