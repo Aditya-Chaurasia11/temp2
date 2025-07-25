@@ -88,10 +88,10 @@ const TradingInterface = () => {
 
           <div className="mb-1">
             <div className="flex justify-between items-center">
-              <span className="text-sm font-medium text-[#000000] underline leading-none">
+              <span className="text-xs font-medium text-[#000000] underline leading-none">
                 Available to Trade
               </span>
-              <span className="text-sm font-medium text-[#000000]">
+              <span className="text-xs font-medium text-[#000000]">
                 0.00 USDC
               </span>
             </div>
